@@ -1,0 +1,667 @@
+1.ping
+	Pinging 8.8.8.8 with 32 bytes of data:
+	Reply from 8.8.8.8: bytes=32 time=79ms TTL=249
+	Reply from 8.8.8.8: bytes=32 time=26ms TTL=249
+	Reply from 8.8.8.8: bytes=32 time=29ms TTL=249
+	Reply from 8.8.8.8: bytes=32 time=20ms TTL=249
+
+	Ping statistics for 8.8.8.8:
+		Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+		Minimum = 20ms, Maximum = 79ms, Average = 38ms
+	
+2.dir
+	 Directory of C:\Users\USER
+
+	08/11/22  10:03 AM    <DIR>          .
+	08/11/22  10:03 AM    <DIR>          ..
+	10/03/21  01:43 AM    <DIR>          .android
+	02/03/21  09:51 PM               391 .bash_history
+	10/03/21  01:41 AM    <DIR>          .BigNox
+	10/17/21  04:20 AM    <DIR>          .dotnet
+	08/11/22  10:03 AM               182 .gitconfig
+	06/19/21  03:22 PM    <DIR>          .idlerc
+	10/12/21  02:25 AM    <DIR>          .Ld2VirtualBox
+	06/03/21  09:57 AM               186 .packettracer
+	08/05/20  01:00 PM    <DIR>          .thumbnails
+	11/06/21  01:24 PM    <DIR>          .VirtualBox
+	05/17/21  12:58 PM    <DIR>          .vscode
+	04/01/21  11:21 AM    <DIR>          3D Objects
+	06/17/20  11:36 AM    <DIR>          ansel
+	12/24/20  10:26 AM    <DIR>          blenderkit_data
+	09/15/20  10:02 AM    <DIR>          Cisco Packet Tracer 6.2sv
+	04/01/21  11:21 AM    <DIR>          Contacts
+	02/17/22  12:37 AM    <DIR>          Creative Cloud Files
+	10/03/21  02:24 AM               299 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+	08/11/22  10:02 AM    <DIR>          Desktop
+	08/11/22  10:03 AM    <DIR>          Documents
+	08/08/22  09:07 PM    <DIR>          Downloads
+	04/01/21  11:21 AM    <DIR>          Favorites
+	10/06/20  01:13 AM                66 inittk.ini
+	10/06/20  01:13 AM                41 inst.ini
+	04/01/21  11:21 AM    <DIR>          Links
+	06/28/22  10:09 AM    <DIR>          Music
+	05/17/21  12:20 PM    <DIR>          MyFirstGame
+	05/17/21  04:04 PM    <DIR>          New Unity Project
+	10/06/20  01:12 AM    <DIR>          Nox_share
+	10/06/20  01:13 AM                45 nuuid.ini
+	08/09/21  08:24 PM    <DIR>          OneDrive
+	06/14/22  02:49 PM    <DIR>          Pictures
+	04/01/21  11:21 AM    <DIR>          Saved Games
+	04/01/21  11:21 AM    <DIR>          Searches
+	10/06/20  01:13 AM                53 useruid.ini
+	01/04/22  03:51 AM    <DIR>          Videos
+	11/05/21  02:23 PM    <DIR>          VirtualBox VMs
+	10/03/21  01:40 AM    <DIR>          vmlogs
+				   8 File(s)          1,263 bytes
+				  32 Dir(s)  18,169,270,272 bytes free
+
+3.diskpart
+	DISKPART> list partition
+
+	  Partition ###  Type              Size     Offset
+	  -------------  ----------------  -------  -------
+	  Partition 1    Recovery           499 MB  1024 KB
+	  Partition 2    System              99 MB   500 MB
+	  Partition 3    Reserved            16 MB   599 MB
+	  Partition 4    Primary            195 GB   615 MB
+	  Partition 5    Recovery           539 MB   195 GB
+	  Partition 6    Primary            269 GB   196 GB
+  
+4.cmdkey
+	Creates, displays, and deletes stored user names and passwords.
+
+	The syntax of this command is:
+
+	CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:password}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+	Examples:
+
+	  To list available credentials:
+		 cmdkey /list
+		 cmdkey /list:targetname
+
+	  To create domain credentials:
+		 cmdkey /add:targetname /user:username /pass:password
+		 cmdkey /add:targetname /user:username /pass
+		 cmdkey /add:targetname /user:username
+		 cmdkey /add:targetname
+
+5.rename
+	rename C:\Users\USER\Pictures\Skipper.jpg Pinguin.jpg
+
+6.query
+	C:\Users\USER>query user
+	 USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+	>user                  console            29  Active      14:04  08/11/22 9:42 AM
+
+	C:\Users\USER>query session
+	 SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE
+	 services                                    0  Disc
+	>console           USER                     29  Active
+	
+	C:\Users\USER>query process
+	 USERNAME              SESSIONNAME         ID    PID  IMAGE
+	>user                  console             29   1188  svchost.exe
+	>user                  console             29  10804  sihost.exe
+	>user                  console             29   3344  svchost.exe
+	>user                  console             29  12924  taskhostw.exe
+	>user                  console             29   6672  ctfmon.exe
+	>user                  console             29  11196  explorer.exe
+	>user                  console             29   5912  svchost.exe
+	>user                  console             29   7524  startmenuexp...
+	>user                  console             29   6940  runtimebroke...
+	>user                  console             29   2352  runtimebroke...
+	>user                  console             29   6404  yourphone.exe
+	>user                  console             29   1264  ravcpl64.exe
+	>user                  console             29  11492  idman.exe
+	>user                  console             29  10380  msedge.exe
+	>user                  console             29  10820  msedge.exe
+	>user                  console             29  11684  searchapp.exe
+	>user                  console             29  11444  cortana.exe
+	>user                  console             29  12300  ccxprocess.exe
+	>user                  console             29   9704  node.exe
+	>user                  console             29   6796  conhost.exe
+	>user                  console             29   2496  runtimebroke...
+	>user                  console             29   1260  svchost.exe
+	>user                  console             29  11076  msedge.exe
+	>user                  console             29   6124  adobeipcbrok...
+	>user                  console             29  13256  svchost.exe
+	>user                  console             29   9608  msedge.exe
+	>user                  console             29   1200  msedge.exe
+	>user                  console             29   5016  msedge.exe
+	>user                  console             29  12464  msedge.exe
+	>user                  console             29  12120  cmd.exe
+	>user                  console             29    908  conhost.exe
+	>user                  console             29  10400  idmmsghost.exe
+	>user                  console             29   6892  runtimebroke...
+	>user                  console             29   1464  microsoft.ph...
+	>user                  console             29   6608  runtimebroke...
+	>user                  console             29   1964  runtimebroke...
+	>user                  console             29   3716  systemsettin...
+	>user                  console             29   7016  applicationf...
+	>user                  console             29   6244  useroobebrok...
+	>user                  console             29  10188  chrome.exe
+	>user                  console             29   1952  chrome.exe
+	>user                  console             29   1868  chrome.exe
+	>user                  console             29  13164  textinputhos...
+	>user                  console             29   7244  chrome.exe
+	>user                  console             29  10856  chrome.exe
+	>user                  console             29   6896  chrome.exe
+	>user                  console             29   6924  chrome.exe
+	>user                  console             29   2384  githubdeskto...
+	>user                  console             29   9300  githubdeskto...
+	>user                  console             29   4348  githubdeskto...
+	>user                  console             29   5552  githubdeskto...
+	>user                  console             29   4312  chrome.exe
+	>user                  console             29  10064  chrome.exe
+	>user                  console             29   8452  notepad++.exe
+	>user                  console             29   1776  chrome.exe
+	>user                  console             29   8136  cmd.exe
+	>user                  console             29   9600  conhost.exe
+	>user                  console             29  11976  query.exe
+	>user                  console             29   4732  qprocess.exe
+	
+7.msg
+	Send a message to a user.
+
+	MSG {username | sessionname | sessionid | @filename | *}
+		[/SERVER:servername] [/TIME:seconds] [/V] [/W] [message]
+
+	  username            Identifies the specified username.
+	  sessionname         The name of the session.
+	  sessionid           The ID of the session.
+	  @filename           Identifies a file containing a list of usernames,
+						  sessionnames, and sessionids to send the message to.
+	  *                   Send message to all sessions on specified server.
+	  /SERVER:servername  server to contact (default is current).
+	  /TIME:seconds       Time delay to wait for receiver to acknowledge msg.
+	  /V                  Display information about actions being performed.
+	  /W                  Wait for response from user, useful with /V.
+	  message             Message to send.  If none specified, prompts for it
+						  or reads from stdin.
+						  
+8.move	
+	C:\Users\USER>move C:\Users\USER\Pictures\jacob_night-wallpaper-1440x900.jpg D:\Game\Menkrep
+	
+9.cd
+	C:\Users\USER>cd Downloads
+	C:\Users\USER\Downloads>cd compressed
+	C:\Users\USER\Downloads\Compressed>
+	
+10.del 
+	C:\Users\USER>del "D:\VIDEO RANDOM\rage.txt"
+
+11.date
+	C:\Users\USER>date
+	The current date is: 08/11/22
+	Enter the new date: (mm-dd-yy)
+	
+12.copy
+	C:\Users\USER>copy C:\Users\USER\Downloads\Music\conan_heater.mp3 C:\Users\USER>copy D:\:LDPlayer
+	
+13.cls
+	Clear Task
+	
+14.tasklist
+		Image Name                     PID Session Name        Session#    Mem Usage
+	========================= ======== ================ =========== ============
+	System Idle Process              0 Services                   0          8 K
+	System                           4 Services                   0      2,780 K
+	Registry                       100 Services                   0     26,216 K
+	smss.exe                       444 Services                   0        200 K
+	csrss.exe                      636 Services                   0      1,716 K
+	wininit.exe                    752 Services                   0      1,260 K
+	services.exe                   828 Services                   0      7,284 K
+	lsass.exe                      872 Services                   0     12,036 K
+	svchost.exe                   1016 Services                   0     25,696 K
+	fontdrvhost.exe                556 Services                   0      1,016 K
+	svchost.exe                    960 Services                   0     16,600 K
+	svchost.exe                   1036 Services                   0      3,444 K
+	svchost.exe                   1216 Services                   0      2,356 K
+	svchost.exe                   1340 Services                   0      1,260 K
+	svchost.exe                   1468 Services                   0      3,436 K
+	svchost.exe                   1508 Services                   0     10,964 K
+	svchost.exe                   1548 Services                   0      3,192 K
+	svchost.exe                   1572 Services                   0     11,268 K
+	svchost.exe                   1608 Services                   0      1,396 K
+	NVDisplay.Container.exe       1632 Services                   0      2,724 K
+	svchost.exe                   1676 Services                   0      6,040 K
+	svchost.exe                   1756 Services                   0      4,468 K
+	svchost.exe                   1780 Services                   0      3,664 K
+	QMEmulatorService.exe         1872 Services                   0      1,316 K
+	svchost.exe                   1892 Services                   0      6,168 K
+	svchost.exe                   2016 Services                   0      5,244 K
+	svchost.exe                   2056 Services                   0      2,024 K
+	svchost.exe                   2180 Services                   0      6,024 K
+	svchost.exe                   2244 Services                   0     15,952 K
+	svchost.exe                   2308 Services                   0      1,148 K
+	svchost.exe                   2504 Services                   0      3,704 K
+	svchost.exe                   2556 Services                   0      4,972 K
+	svchost.exe                   2724 Services                   0      1,784 K
+	svchost.exe                   2788 Services                   0    118,404 K
+	svchost.exe                   2784 Services                   0      1,708 K
+	svchost.exe                   2800 Services                   0      2,296 K
+	svchost.exe                   2868 Services                   0      1,340 K
+	svchost.exe                   2892 Services                   0      1,964 K
+	Memory Compression            2948 Services                   0    198,960 K
+	svchost.exe                   2992 Services                   0      3,396 K
+	svchost.exe                   1628 Services                   0      2,476 K
+	svchost.exe                   2128 Services                   0      2,348 K
+	svchost.exe                   1272 Services                   0      2,044 K
+	spoolsv.exe                   2076 Services                   0      2,216 K
+	svchost.exe                   3088 Services                   0     10,832 K
+	svchost.exe                   3316 Services                   0      2,744 K
+	svchost.exe                   3376 Services                   0     14,100 K
+	svchost.exe                   3460 Services                   0     34,620 K
+	svchost.exe                   3480 Services                   0      5,424 K
+	svchost.exe                   3488 Services                   0     31,392 K
+	OfficeClickToRun.exe          3512 Services                   0     20,888 K
+	svchost.exe                   3524 Services                   0      1,376 K
+	svchost.exe                   3544 Services                   0      1,176 K
+	svchost.exe                   3560 Services                   0      1,252 K
+	svchost.exe                   3600 Services                   0      1,204 K
+	svchost.exe                   3612 Services                   0      1,240 K
+	windefender.exe               3644 Services                   0      2,616 K
+	svchost.exe                   3668 Services                   0      6,064 K
+	svchost.exe                   3740 Services                   0      1,040 K
+	AdobeUpdateService.exe        3820 Services                   0      1,128 K
+	AGSService.exe                3860 Services                   0      1,768 K
+	AGMService.exe                3868 Services                   0      1,680 K
+	svchost.exe                   3888 Services                   0      2,464 K
+	svchost.exe                   4020 Services                   0      1,060 K
+	svchost.exe                   1424 Services                   0      3,452 K
+	svchost.exe                   4220 Services                   0      3,612 K
+	svchost.exe                   4848 Services                   0      2,532 K
+	dllhost.exe                   5064 Services                   0      3,504 K
+	svchost.exe                   5080 Services                   0      1,020 K
+	unsecapp.exe                  1620 Services                   0      2,392 K
+	svchost.exe                   2144 Services                   0      5,468 K
+	svchost.exe                   5056 Services                   0      8,544 K
+	svchost.exe                   5200 Services                   0      1,436 K
+	svchost.exe                   5268 Services                   0      5,236 K
+	SearchIndexer.exe             5344 Services                   0     39,168 K
+	svchost.exe                   5420 Services                   0      3,544 K
+	SgrmBroker.exe                7004 Services                   0      5,248 K
+	GoogleCrashHandler.exe        7148 Services                   0        608 K
+	GoogleCrashHandler64.exe      1204 Services                   0        312 K
+	svchost.exe                   6064 Services                   0      4,568 K
+	svchost.exe                   1196 Services                   0      2,276 K
+	svchost.exe                   1928 Services                   0      7,608 K
+	svchost.exe                   1560 Services                   0      3,164 K
+	svchost.exe                   6284 Services                   0      5,464 K
+	svchost.exe                   9128 Services                   0        932 K
+	svchost.exe                   5732 Services                   0      1,796 K
+	svchost.exe                   9204 Services                   0        856 K
+	dasHost.exe                   9220 Services                   0      1,504 K
+	svchost.exe                   9816 Services                   0      1,336 K
+	SecurityHealthService.exe     9172 Services                   0      2,412 K
+	MoUsoCoreWorker.exe          10584 Services                   0     46,492 K
+	MsMpEng.exe                   4368 Services                   0    161,400 K
+	NisSrv.exe                    4824 Services                   0      9,648 K
+	svchost.exe                   8448 Services                   0      2,112 K
+	svchost.exe                   9500 Services                   0     12,968 K
+	MpCopyAccelerator.exe         9380 Services                   0      1,148 K
+	svchost.exe                   7436 Services                   0      1,688 K
+	svchost.exe                   8252 Services                   0      1,212 K
+	csrss.exe                     9616 Console                   29      2,452 K
+	winlogon.exe                  4916 Console                   29      2,524 K
+	fontdrvhost.exe               6740 Console                   29      2,916 K
+	dwm.exe                      12332 Console                   29     26,064 K
+	NVDisplay.Container.exe       2680 Console                   29      3,872 K
+	svchost.exe                  10312 Services                   0     24,984 K
+	svchost.exe                   2720 Services                   0        960 K
+	svchost.exe                   1188 Console                   29      9,844 K
+	sihost.exe                   10804 Console                   29     11,868 K
+	svchost.exe                   3344 Console                   29      7,920 K
+	taskhostw.exe                12924 Console                   29      8,044 K
+	ctfmon.exe                    6672 Console                   29      8,280 K
+	explorer.exe                 11196 Console                   29     90,812 K
+	svchost.exe                   5912 Console                   29     12,084 K
+	StartMenuExperienceHost.e     7524 Console                   29     23,244 K
+	RuntimeBroker.exe             6940 Console                   29      8,152 K
+	RuntimeBroker.exe             2352 Console                   29     16,464 K
+	YourPhone.exe                 6404 Console                   29     16,948 K
+	RAVCpl64.exe                  1264 Console                   29      2,760 K
+	IDMan.exe                    11492 Console                   29     11,752 K
+	msedge.exe                   10380 Console                   29     34,564 K
+	msedge.exe                   10820 Console                   29      1,524 K
+	SearchApp.exe                11684 Console                   29    115,748 K
+	Cortana.exe                  11444 Console                   29      2,584 K
+	CCXProcess.exe               12300 Console                   29        324 K
+	node.exe                      9704 Console                   29     22,452 K
+	conhost.exe                   6796 Console                   29      1,128 K
+	RuntimeBroker.exe             2496 Console                   29      1,912 K
+	svchost.exe                   1260 Console                   29      3,468 K
+	msedge.exe                   11076 Console                   29      4,068 K
+	AdobeIPCBroker.exe            6124 Console                   29      1,912 K
+	svchost.exe                  13256 Console                   29      3,848 K
+	msedge.exe                    9608 Console                   29      3,340 K
+	msedge.exe                    1200 Console                   29      4,092 K
+	msedge.exe                    5016 Console                   29     14,160 K
+	msedge.exe                   12464 Console                   29      2,592 K
+	cmd.exe                      12120 Console                   29        552 K
+	conhost.exe                    908 Console                   29      1,312 K
+	IDMMsgHost.exe               10400 Console                   29        392 K
+	RuntimeBroker.exe             6892 Console                   29      2,668 K
+	Microsoft.Photos.exe          1464 Console                   29     34,556 K
+	RuntimeBroker.exe             6608 Console                   29     29,132 K
+	RuntimeBroker.exe             1964 Console                   29      5,364 K
+	SystemSettings.exe            3716 Console                   29        792 K
+	ApplicationFrameHost.exe      7016 Console                   29      2,496 K
+	UserOOBEBroker.exe            6244 Console                   29      4,324 K
+	chrome.exe                   10188 Console                   29    190,196 K
+	chrome.exe                    1952 Console                   29      2,804 K
+	chrome.exe                    7488 Console                   29    139,732 K
+	chrome.exe                   10436 Console                   29     41,732 K
+	chrome.exe                    4528 Console                   29      8,924 K
+	chrome.exe                   11028 Console                   29     52,440 K
+	chrome.exe                   11576 Console                   29     23,464 K
+	chrome.exe                    6224 Console                   29      7,480 K
+	chrome.exe                    7068 Console                   29     97,792 K
+	chrome.exe                    4592 Console                   29     29,268 K
+	chrome.exe                    1868 Console                   29     56,784 K
+	TextInputHost.exe            13164 Console                   29      8,684 K
+	chrome.exe                    7244 Console                   29      8,240 K
+	svchost.exe                   8044 Services                   0      1,392 K
+	chrome.exe                   10856 Console                   29      4,660 K
+	chrome.exe                    6896 Console                   29     52,568 K
+	chrome.exe                    6924 Console                   29     41,724 K
+	GitHubDesktop.exe             2384 Console                   29     31,372 K
+	GitHubDesktop.exe             9300 Console                   29     22,004 K
+	GitHubDesktop.exe             4348 Console                   29     12,888 K
+	GitHubDesktop.exe             5552 Console                   29     51,696 K
+	chrome.exe                    4312 Console                   29     72,400 K
+	chrome.exe                   10064 Console                   29     39,740 K
+	chrome.exe                    5988 Console                   29     69,096 K
+	dllhost.exe                   8592 Console                   29      2,916 K
+	chrome.exe                   11932 Console                   29     85,084 K
+	chrome.exe                    6216 Console                   29     79,620 K
+	chrome.exe                    6788 Console                   29     17,216 K
+	chrome.exe                    1356 Console                   29     10,316 K
+	chrome.exe                   11172 Console                   29     31,012 K
+	chrome.exe                   11652 Console                   29     52,376 K
+	chrome.exe                    7136 Console                   29     55,724 K
+	chrome.exe                    7564 Console                   29     67,516 K
+	chrome.exe                   12684 Console                   29     60,260 K
+	chrome.exe                    4552 Console                   29     69,300 K
+	chrome.exe                    3444 Console                   29     52,244 K
+	chrome.exe                    2336 Console                   29     55,832 K
+	chrome.exe                   10468 Console                   29      7,612 K
+	chrome.exe                    1856 Console                   29      5,068 K
+	notepad++.exe                 8452 Console                   29     12,044 K
+	chrome.exe                    1776 Console                   29     81,884 K
+	chrome.exe                   11160 Console                   29     46,372 K
+	chrome.exe                   11972 Console                   29     52,976 K
+	svchost.exe                   1112 Services                   0     28,180 K
+	svchost.exe                   3772 Services                   0      7,960 K
+	svchost.exe                   8700 Services                   0      1,624 K
+	chrome.exe                    5052 Console                   29    127,888 K
+	chrome.exe                    9780 Console                   29     33,428 K
+	smartscreen.exe              12628 Console                   29     23,548 K
+	cmd.exe                       8168 Console                   29      4,140 K
+	conhost.exe                  11648 Console                   29     16,092 K
+	chrome.exe                   12936 Console                   29     48,544 K
+	tasklist.exe                  7612 Console                   29      8,800 K
+	WmiPrvSE.exe                   656 Services                   0      9,164 K
+	
+15.ipconfig
+	Windows IP Configuration
+
+
+	Ethernet adapter Ethernet:
+
+	   Media State . . . . . . . . . . . : Media disconnected
+	   Connection-specific DNS Suffix  . :
+
+	Ethernet adapter VirtualBox Host-Only Network:
+
+	   Connection-specific DNS Suffix  . :
+	   Link-local IPv6 Address . . . . . : fe80::b4ea:cca0:cc83:e109%13
+	   IPv4 Address. . . . . . . . . . . : 111.111.11.1
+	   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+	   Default Gateway . . . . . . . . . :
+
+	Ethernet adapter Ethernet 10:
+
+	   Connection-specific DNS Suffix  . :
+	   Link-local IPv6 Address . . . . . : fe80::f415:2db6:50f4:ae03%38
+	   IPv4 Address. . . . . . . . . . . : 111.111.11.1
+	   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+	   Default Gateway . . . . . . . . . : 111.111.11.1
+
+16.whoami
+	C:\Users\USER>whoami
+	cursed\user
+	
+17.ver
+	C:\Users\USER>ver
+
+	Microsoft Windows [Version 10.0.19043.1348]
+	
+18.systeminfo
+		Host Name:                 CURSED
+	OS Name:                   Microsoft Windows 10 Pro
+	OS Version:                10.0.19043 N/A Build 19043
+	OS Manufacturer:           Microsoft Corporation
+	OS Configuration:          Standalone Workstation
+	OS Build Type:             Multiprocessor Free
+	Registered Owner:          USER
+	Registered Organization:
+	Product ID:                00330-80000-00000-AA677
+	Original Install Date:     04/01/21, 11:19:15 AM
+	System Boot Time:          07/02/22, 10:41:58 PM
+	System Manufacturer:       To be filled by O.E.M.
+	System Model:              To be filled by O.E.M.
+	System Type:               x64-based PC
+	Processor(s):              1 Processor(s) Installed.
+							   [01]: Intel64 Family 6 Model 58 Stepping 9 GenuineIntel ~3400 Mhz
+	BIOS Version:              American Megatrends Inc. 4.6.5, 05/05/19
+	Windows Directory:         C:\WINDOWS
+	System Directory:          C:\WINDOWS\system32
+	Boot Device:               \Device\HarddiskVolume2
+	System Locale:             3809
+	Input Locale:              en-us;English (United States)
+	Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+	Total Physical Memory:     8,155 MB
+	Available Physical Memory: 3,903 MB
+	Virtual Memory: Max Size:  12,615 MB
+	Virtual Memory: Available: 6,498 MB
+	Virtual Memory: In Use:    6,117 MB
+	Page File Location(s):     C:\pagefile.sys
+	Domain:                    WORKGROUP
+	Logon Server:              \\CURSED
+	Hotfix(s):                 8 Hotfix(s) Installed.
+							   [01]: KB5013624
+							   [02]: KB4562830
+							   [03]: KB4577586
+							   [04]: KB4580325
+							   [05]: KB5000736
+							   [06]: KB5007186
+							   [07]: KB5006753
+							   [08]: KB5003503
+	Network Card(s):           3 NIC(s) Installed.
+							   [01]: Realtek PCIe FE Family Controller
+									 Connection Name: Ethernet
+									 Status:          Media disconnected
+							   [02]: VirtualBox Host-Only Ethernet Adapter
+									 Connection Name: VirtualBox Host-Only Network
+									 DHCP Enabled:    No
+									 IP address(es)
+									 [01]: 192.168.56.1
+									 [02]: fe80::b4ea:cca0:cc83:e109
+							   [03]: Remote NDIS based Internet Sharing Device
+									 Connection Name: Ethernet 10
+									 DHCP Enabled:    Yes
+									 DHCP Server:     192.168.84.29
+									 IP address(es)
+									 [01]: 192.168.84.29
+									 [02]: fe80::f415:2db6:50f4:ae03
+	Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+							   Virtualization Enabled In Firmware: Yes
+							   Second Level Address Translation: Yes
+							   Data Execution Prevention Available: Yes
+		
+19.tree
+		D:\GAME
+	├───Game Boy Advance
+	│   ├───1483 GameBoy Roms
+	│   └───NES_655_ROMS
+	├───GTA V
+	├───mc dungeoon
+	│   └───MC
+	│       └───MD5
+	├───Menkrep
+	│   ├───1.14.4
+	│   ├───1.14.4-OptiFine_HD_U_F3
+	│   │   └───natives
+	│   │       └───META-INF
+	│   │           └───versions
+	│   │               └───9
+	│   ├───OptiFine 1.14.4
+	│   │   └───natives
+	│   │       └───META-INF
+	│   │           └───versions
+	│   │               └───9
+	│   ├───Stopid land - Copy
+	│   │   ├───advancements
+	│   │   ├───baritone
+	│   │   │   └───DIM0
+	│   │   │       ├───cache
+	│   │   │       └───waypoints
+	│   │   ├───data
+	│   │   │   ├───advancements
+	│   │   │   └───functions
+	│   │   ├───datapacks
+	│   │   ├───DIM-1
+	│   │   │   ├───data
+	│   │   │   ├───poi
+	│   │   │   └───region
+	│   │   ├───DIM1
+	│   │   │   └───data
+	│   │   ├───playerdata
+	│   │   ├───poi
+	│   │   ├───region
+	│   │   └───stats
+	│   ├───TExtue
+	│   │   └───skeleton
+	│   └───wurs 1.18
+	└───Raft.v13.01
+		├───Raft.v13.01
+		│   ├───MonoBleedingEdge
+		│   │   ├───EmbedRuntime
+		│   │   └───etc
+		│   │       └───mono
+		│   │           ├───2.0
+		│   │           │   └───Browsers
+		│   │           ├───4.0
+		│   │           │   └───Browsers
+		│   │           ├───4.5
+		│   │           │   └───Browsers
+		│   │           └───mconfig
+		│   └───Raft_Data
+		│       ├───Managed
+		│       ├───Plugins
+		│       ├───Resources
+		│       └───StreamingAssets
+		└───_Redist
+		
+20.help
+		For more information on a specific command, type HELP command-name
+	ASSOC          Displays or modifies file extension associations.
+	ATTRIB         Displays or changes file attributes.
+	BREAK          Sets or clears extended CTRL+C checking.
+	BCDEDIT        Sets properties in boot database to control boot loading.
+	CACLS          Displays or modifies access control lists (ACLs) of files.
+	CALL           Calls one batch program from another.
+	CD             Displays the name of or changes the current directory.
+	CHCP           Displays or sets the active code page number.
+	CHDIR          Displays the name of or changes the current directory.
+	CHKDSK         Checks a disk and displays a status report.
+	CHKNTFS        Displays or modifies the checking of disk at boot time.
+	CLS            Clears the screen.
+	CMD            Starts a new instance of the Windows command interpreter.
+	COLOR          Sets the default console foreground and background colors.
+	COMP           Compares the contents of two files or sets of files.
+	COMPACT        Displays or alters the compression of files on NTFS partitions.
+	CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+				   current drive.
+	COPY           Copies one or more files to another location.
+	DATE           Displays or sets the date.
+	DEL            Deletes one or more files.
+	DIR            Displays a list of files and subdirectories in a directory.
+	DISKPART       Displays or configures Disk Partition properties.
+	DOSKEY         Edits command lines, recalls Windows commands, and
+				   creates macros.
+	DRIVERQUERY    Displays current device driver status and properties.
+	ECHO           Displays messages, or turns command echoing on or off.
+	ENDLOCAL       Ends localization of environment changes in a batch file.
+	ERASE          Deletes one or more files.
+	EXIT           Quits the CMD.EXE program (command interpreter).
+	FC             Compares two files or sets of files, and displays the
+				   differences between them.
+	FIND           Searches for a text string in a file or files.
+	FINDSTR        Searches for strings in files.
+	FOR            Runs a specified command for each file in a set of files.
+	FORMAT         Formats a disk for use with Windows.
+	FSUTIL         Displays or configures the file system properties.
+	FTYPE          Displays or modifies file types used in file extension
+				   associations.
+	GOTO           Directs the Windows command interpreter to a labeled line in
+				   a batch program.
+	GPRESULT       Displays Group Policy information for machine or user.
+	GRAFTABL       Enables Windows to display an extended character set in
+				   graphics mode.
+	HELP           Provides Help information for Windows commands.
+	ICACLS         Display, modify, backup, or restore ACLs for files and
+				   directories.
+	IF             Performs conditional processing in batch programs.
+	LABEL          Creates, changes, or deletes the volume label of a disk.
+	MD             Creates a directory.
+	MKDIR          Creates a directory.
+	MKLINK         Creates Symbolic Links and Hard Links
+	MODE           Configures a system device.
+	MORE           Displays output one screen at a time.
+	MOVE           Moves one or more files from one directory to another
+				   directory.
+	OPENFILES      Displays files opened by remote users for a file share.
+	PATH           Displays or sets a search path for executable files.
+	PAUSE          Suspends processing of a batch file and displays a message.
+	POPD           Restores the previous value of the current directory saved by
+				   PUSHD.
+	PRINT          Prints a text file.
+	PROMPT         Changes the Windows command prompt.
+	PUSHD          Saves the current directory then changes it.
+	RD             Removes a directory.
+	RECOVER        Recovers readable information from a bad or defective disk.
+	REM            Records comments (remarks) in batch files or CONFIG.SYS.
+	REN            Renames a file or files.
+	RENAME         Renames a file or files.
+	REPLACE        Replaces files.
+	RMDIR          Removes a directory.
+	ROBOCOPY       Advanced utility to copy files and directory trees
+	SET            Displays, sets, or removes Windows environment variables.
+	SETLOCAL       Begins localization of environment changes in a batch file.
+	SC             Displays or configures services (background processes).
+	SCHTASKS       Schedules commands and programs to run on a computer.
+	SHIFT          Shifts the position of replaceable parameters in batch files.
+	SHUTDOWN       Allows proper local or remote shutdown of machine.
+	SORT           Sorts input.
+	START          Starts a separate window to run a specified program or command.
+	SUBST          Associates a path with a drive letter.
+	SYSTEMINFO     Displays machine specific properties and configuration.
+	TASKLIST       Displays all currently running tasks including services.
+	TASKKILL       Kill or stop a running process or application.
+	TIME           Displays or sets the system time.
+	TITLE          Sets the window title for a CMD.EXE session.
+	TREE           Graphically displays the directory structure of a drive or
+				   path.
+	TYPE           Displays the contents of a text file.
+	VER            Displays the Windows version.
+	VERIFY         Tells Windows whether to verify that your files are written
+				   correctly to a disk.
+	VOL            Displays a disk volume label and serial number.
+	XCOPY          Copies files and directory trees.
+	WMIC           Displays WMI information inside interactive command shell.
+
+	For more information on tools see the command-line reference in the online help.
