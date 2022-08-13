@@ -41,4 +41,6 @@ Selamat Inisialisasi anda telah selesai dan siap untuk digunakan !
 
 ## Langkah 2 : Siapkan Tim Kamu 
 
+Anda adalah pemain tim, jadi Anda perlu menambahkan tim Anda ke repo agar mereka dapat berkolaborasi. Setelah tim Anda ditambahkan sebagai kolaborator, mereka akan dapat mendorong, menggabungkan, dan banyak hal merusak lainnya, jadi pastikan Anda hanya menambahkan rekan satu tim Anda.
 
+Klik pada tab "Pengaturan" perwakilan Anda, lalu "Collaborator" lalu cari pengguna Github dan tambahkan mereka dengan mengklik "Add Collaborator":
