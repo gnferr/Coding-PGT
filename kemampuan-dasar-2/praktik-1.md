@@ -44,3 +44,28 @@ Selamat Inisialisasi anda telah selesai dan siap untuk digunakan !
 Anda adalah pemain tim, jadi Anda perlu menambahkan tim Anda ke repo agar mereka dapat berkolaborasi. Setelah tim Anda ditambahkan sebagai kolaborator, mereka akan dapat mendorong, menggabungkan, dan banyak hal merusak lainnya, jadi pastikan Anda hanya menambahkan rekan satu tim Anda.
 
 Klik pada tab "Pengaturan" perwakilan Anda, lalu "Collaborator" lalu cari pengguna Github dan tambahkan mereka dengan mengklik "Add Collaborator":
+
+![2_1](https://user-images.githubusercontent.com/110990246/184498828-d45d87ff-5ed8-4422-bf42-bc27e2896d16.png)
+
+Mereka akan menerima email yang memberi tahu mereka bahwa Anda menambahkan mereka dan akan terdaftar sebagai kolaborator.
+
+![2_12](https://user-images.githubusercontent.com/110990246/184498843-e02e773a-c9ad-405f-93d4-c4cc0518a0a1.png)
+
+Jika Anda seorang kolaborator, buka halaman Github Repo, Git Clone the project, dan cd ke direktori. Jangan memotongnya! Forking akan menyalinnya di Repo baru ke halaman Github Anda, tetapi Anda tidak menginginkannya — Anda ingin berkolaborasi di Repo Github yang sama dengan rekan tim Anda.
+
+![2_2](https://user-images.githubusercontent.com/110990246/184498974-fa5c1efb-fa89-4620-b96b-4807641664eb.png)
+
+Ketikan perintah berikut :
+```
+$ git clone https://github.com/gnferr/panduan_github.git
+$ cd panduan_github/
+```
+Sekarang anda siap untuk berkolaborasi !
+
+
+
+
+
+
+
+
