@@ -25,7 +25,7 @@ EXIT
 :yes
 set /p variable= Nama Baru : %variable% 
 set "xx=%variable%"
-echo Ingin ubah nama menjadi %xx% ? [y/n]
+echo Ingin mengubah nama menjadi %xx% ? [y/n]
 SET choice=
 SET /p choice= : 
 IF NOT '%choice%'=='' SET choice=%choice:~0,1%
