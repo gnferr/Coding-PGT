@@ -3,7 +3,7 @@
 cd C:\Users\USER\Documents\GitHub
 dir "*.java" /s
 echo Java ada di : C:\Users\USER\Documents\GitHub\Coding-PGT\kemampuan-dasar-1\kasus
-
+echo ============================================================================================================
 echo file *.java ditemukan , ingin mengubah nama  ? [y/n]
 SET choice=
 SET /p choice= : 
@@ -42,5 +42,6 @@ GOTO start
 cd C:\Users\USER\Documents\GitHub\Coding-PGT\kemampuan-dasar-1\kasus
 ren "C:\Users\USER\Documents\GitHub\Coding-PGT\kemampuan-dasar-1\kasus\*.java" "%variable%.java"
 echo Berhasil mengubah nama !
+echo ============================================================================================================
 PAUSE
 EXIT
