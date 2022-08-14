@@ -1,105 +1,108 @@
 # Rangkuman
 
-## Information Technology
-Information technology (IT) is the use of computers to create, process, store, retrieve, and exchange all kinds of data[1] and information. IT is typically used within the context of business operations as opposed to personal or entertainment technologies.[2] IT forms part of information and communications technology (ICT). [3]An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system — including all hardware, software, and peripheral equipment — operated by a limited group of IT users.
+## Teknologi Informasi
+Teknologi informasi (TI) adalah penggunaan komputer untuk membuat, memproses, menyimpan, mengambil, dan bertukar semua jenis data[1] dan informasi. TI biasanya digunakan dalam konteks operasi bisnis yang bertentangan dengan teknologi pribadi atau hiburan. TI merupakan bagian dari teknologi informasi dan komunikasi (TIK). Sistem teknologi informasi (sistem TI) umumnya merupakan sistem informasi, sistem komunikasi, atau, lebih khusus lagi, sistem komputer — termasuk semua perangkat keras, perangkat lunak, dan peralatan periferal — yang dioperasikan oleh sekelompok pengguna TI yang terbatas.
 
 #### Data Storage 
-Early electronic computers such as Colossus made use of punched tape, a long strip of paper on which data was represented by a series of holes, a technology now obsolete.[22] Electronic data storage, which is used in modern computers, dates from World War II, when a form of delay-line memory was developed to remove the clutter from radar signals, the first practical application of which was the mercury delay line.[23] The first random-access digital storage device was the Williams tube, which was based on a standard cathode ray tube.[24] However, the information stored in it and delay-line memory was volatile in the fact that it had to be continuously refreshed, and thus was lost once power was removed. The earliest form of non-volatile computer storage was the magnetic drum, invented in 1932[25] and used in the Ferranti Mark 1, the world's first commercially available general-purpose electronic computer.[26]
+Komputer elektronik awal seperti Colossus memanfaatkan pita berlubang, secarik kertas panjang di mana data diwakili oleh serangkaian lubang, sebuah teknologi yang sekarang sudah usang. Penyimpanan data elektronik, yang digunakan di komputer modern, berasal dari Perang Dunia II, ketika bentuk memori garis tunda dikembangkan untuk menghilangkan kekacauan dari sinyal radar, aplikasi praktis pertama adalah garis tunda merkuri. Perangkat penyimpanan digital akses acak pertama adalah tabung Williams, yang didasarkan pada tabung sinar katoda standar. Namun, informasi yang disimpan di dalamnya dan memori saluran tunda tidak stabil karena harus terus diperbarui, dan dengan demikian hilang begitu daya dimatikan. Bentuk paling awal dari penyimpanan komputer non-volatile adalah drum magnetik, ditemukan pada tahun 1932 dan digunakan dalam Ferranti Mark 1, komputer elektronik tujuan umum pertama yang tersedia secara komersial di dunia.
 
-#### Database
-Database Management Systems (DMS) emerged in the 1960s to address the problem of storing and retrieving large amounts of data accurately and quickly. An early such system was IBM's Information Management System (IMS),[32] which is still widely deployed more than 50 years later.[33] IMS stores data hierarchically,[32] but in the 1970s Ted Codd proposed an alternative relational storage model based on set theory and predicate logic and the familiar concepts of tables, rows, and columns. In 1981, the first commercially available relational database management system (RDBMS) was released by Oracle.[34]
+#### Database Management System
+Database Management System (DMS) muncul pada tahun 1960-an untuk mengatasi masalah penyimpanan dan pengambilan data dalam jumlah besar secara akurat dan cepat. Sistem awal seperti itu adalah Sistem Manajemen Informasi (IMS) IBM, yang masih digunakan secara luas lebih dari 50 tahun kemudian. IMS menyimpan data secara hierarkis,[32] tetapi pada tahun 1970-an Ted Codd mengusulkan model penyimpanan relasional alternatif berdasarkan teori himpunan dan logika predikat serta konsep tabel, baris, dan kolom yang sudah dikenal. Pada tahun 1981, sistem manajemen basis data relasional (RDBMS) pertama yang tersedia secara komersial dirilis oleh Oracle.
 
-All DMS consist of components, they allow the data they store to be accessed simultaneously by many users while maintaining its integrity.[35] All databases are common in one point that the structure of the data they contain is defined and stored separately from the data itself, in a database schema.[32]
+Semua DMS terdiri dari komponen, mereka memungkinkan data yang mereka simpan untuk diakses secara bersamaan oleh banyak pengguna dengan tetap menjaga integritasnya. Semua database umum dalam satu titik bahwa struktur data yang dikandungnya didefinisikan dan disimpan secara terpisah dari data itu sendiri, dalam skema database.
 
-In recent years, the extensible markup language (XML) has become a popular format for data representation. Although XML data can be stored in normal file systems, it is commonly held in relational databases to take advantage of their "robust implementation verified by years of both theoretical and practical effort."[36] As an evolution of the Standard Generalized Markup Language (SGML), XML's text-based structure offers the advantage of being both machine and human-readable.[37]
+Dalam beberapa tahun terakhir, extensible markup language (XML) telah menjadi format populer untuk representasi data. Meskipun data XML dapat disimpan dalam sistem file normal, biasanya disimpan dalam basis data relasional untuk mengambil keuntungan dari "implementasi kuat yang diverifikasi oleh upaya teoretis dan praktis selama bertahun-tahun." Sebagai evolusi dari Standard Generalized Markup Language (SGML), struktur berbasis teks XML menawarkan keuntungan karena dapat dibaca oleh mesin dan manusia.
 
 #### Data Retrival
-The relational database model introduced a programming-language independent Structured Query Language (SQL), based on relational algebra.
-The terms "data" and "information" are not synonymous. Anything stored is data, but it only becomes information when it is organized and presented meaningfully.[38]: 1–9  Most of the world's digital data is unstructured, and stored in a variety of different physical formats[39][b] even within a single organization. Data warehouses began to be developed in the 1980s to integrate these disparate stores. They typically contain data extracted from various sources, including external sources such as the Internet, organized in such a way as to facilitate decision support systems (DSS).
+Model database relasional memperkenalkan bahasa pemrograman Structured Query Language (SQL) independen, berdasarkan aljabar relasional.
+Istilah "data" dan "informasi" tidak sama. Apa pun yang disimpan adalah data, tetapi hanya menjadi informasi ketika diatur dan disajikan secara bermakna.: 1–9  Sebagian besar data digital dunia tidak terstruktur, dan disimpan dalam berbagai format fisik yang berbeda[39][b] bahkan dalam satu organisasi. Gudang data mulai dikembangkan pada 1980-an untuk mengintegrasikan toko-toko yang berbeda ini. Mereka biasanya berisi data yang diambil dari berbagai sumber, termasuk sumber eksternal seperti Internet, diatur sedemikian rupa untuk memfasilitasi sistem pendukung keputusan (DSS).
 
 #### Data Transmission
-Data transmission has three aspects: transmission, propagation, and reception.[41] It can be broadly categorized as broadcasting, in which information is transmitted unidirectionally downstream, or telecommunications, with bidirectional upstream and downstream channels.
+Data Transmission memiliki tiga aspek: transmisi, propagasi, dan penerimaan. Ini dapat dikategorikan secara luas sebagai penyiaran, di mana informasi ditransmisikan secara searah ke hilir, atau telekomunikasi, dengan saluran hulu dan hilir dua arah.
 
 ## Computer Science
-Computer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. It is the scientific and practical approach to computation and its applications and the systematic study of the feasibility, structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, processing, storage, communication of, and access to information. An alternate, more succinct definition of computer science is the study of automating algorithmic processes that scale. A computer scientist specializes in the theory of computation and the design of computational systems.
+Computer Science adalah studi tentang teori, eksperimen, dan rekayasa yang membentuk dasar untuk desain dan penggunaan komputer. Ini adalah pendekatan ilmiah dan praktis untuk perhitungan dan aplikasinya dan studi sistematis tentang kelayakan, struktur, ekspresi, dan mekanisasi prosedur metodis (atau algoritma) yang mendasari akuisisi, representasi, pemrosesan, penyimpanan, komunikasi, dan akses. untuk informasi. Definisi ilmu komputer alternatif yang lebih ringkas adalah studi tentang mengotomatisasi proses algoritmik yang berskala. Seorang ilmuwan komputer mengkhususkan diri dalam teori komputasi dan desain sistem komputasi.
 
-## Informatics
-Informatics is a branch of information engineering. It involves the practice of information processing and the engineering of information systems, and as an academic field it is an applied form of information science. The field considers the interaction between humans and information alongside the construction of interfaces, organisations, technologies and systems. As such, the field of informatics has great breadth and encompasses many subspecialties, including disciplines of computer science, information systems, information technology and statistics. Since the advent of computers, individuals and organizations increasingly process information digitally. This has led to the study of informatics with computational, mathematical, biological, cognitive and social aspects, including study of the social impact of information technologies.
+## Informatika
+Informatika adalah cabang dari rekayasa informasi. Ini melibatkan praktik pemrosesan informasi dan rekayasa sistem informasi, dan sebagai bidang akademik, ini adalah bentuk terapan dari ilmu informasi. Bidang ini mempertimbangkan interaksi antara manusia dan informasi di samping konstruksi antarmuka, organisasi, teknologi, dan sistem. Dengan demikian, bidang informatika memiliki luas yang besar dan mencakup banyak subspesialisasi, termasuk disiplin ilmu komputer, sistem informasi, teknologi informasi dan statistik. Sejak munculnya komputer, individu dan organisasi semakin memproses informasi secara digital. Hal ini telah menyebabkan studi informatika dengan komputasi, matematika, biologi, kognitif dan aspek sosial, termasuk studi tentang dampak sosial dari teknologi informasi.
 
 ## Software Development
-Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. Software development involves writing and maintaining the source code, but in a broader sense, it includes all processes from the conception of the desired software through to the final manifestation of the software, typically in a planned and structured process.
+Software Development adalah proses menyusun, menentukan, merancang, memprogram, mendokumentasikan, menguji, dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen perangkat lunak lainnya. Pengembangan perangkat lunak melibatkan penulisan dan pemeliharaan kode sumber, tetapi dalam arti yang lebih luas, itu mencakup semua proses dari konsepsi perangkat lunak yang diinginkan hingga manifestasi akhir perangkat lunak, biasanya dalam proses yang direncanakan dan terstruktur.
 
 ### Software Development Activities
 
 #### Identification of need
-The sources of ideas for software products are plentiful. These ideas can come from market research including the demographics of potential new customers, existing customers, sales prospects who rejected the product, other internal software development staff, or a creative third party. Ideas for software products are usually first evaluated by marketing personnel for economic feasibility, for fit with existing channels distribution, for possible effects on existing product lines, required features, and for fit with the company's marketing objectives.
+Sumber ide untuk produk perangkat lunak sangat banyak. Ide-ide ini dapat berasal dari riset pasar termasuk demografi calon pelanggan baru, pelanggan yang sudah ada, prospek penjualan yang menolak produk, staf pengembangan perangkat lunak internal lainnya, atau pihak ketiga yang kreatif. Ide untuk produk perangkat lunak biasanya dievaluasi terlebih dahulu oleh personel pemasaran untuk kelayakan ekonomi, agar sesuai dengan saluran distribusi yang ada, untuk kemungkinan efek pada lini produk yang ada, fitur yang diperlukan, dan sesuai dengan tujuan pemasaran perusahaan.
 
 #### Planning process
-Planning is an objective of each and every activity, where we want to discover things that belong to the project. An important task in creating a software program is extracting the requirements or requirements analysis.
+Perencanaan adalah tujuan dari setiap kegiatan, di mana kita ingin menemukan hal-hal yang termasuk dalam proyek. Tugas penting dalam membuat program perangkat lunak adalah mengekstrak persyaratan atau analisis persyaratan.
 
 #### Software Development
-- Software development is focused on the programs (or software) used in computer systems. Software developers are responsible for the concept, creation, programming, some documenting, testing, improving and maintaining the software and its software components.
+- Software Development difokuskan pada program (atau perangkat lunak) yang digunakan dalam sistem komputer. Pengembang perangkat lunak bertanggung jawab atas konsep, pembuatan, pemrograman, beberapa pendokumentasian, pengujian, peningkatan dan pemeliharaan perangkat lunak dan komponen perangkat lunaknya.
 
-- Software developers (and mobile software engineers) create programs and mobile applications for stand-alone desktop computers and mobile devices and their platforms.
+- Software Development (dan insinyur perangkat lunak seluler) membuat program dan aplikasi seluler untuk komputer desktop yang berdiri sendiri dan perangkat seluler serta platformnya.
 
-- Software developers need to have understanding of not only development best practices, but also the theory behind the programming.
+- Software Development harus memiliki pemahaman tidak hanya tentang praktik terbaik pengembangan, tetapi juga teori di balik pemrograman.
 
 #### View model
-A view model is a framework that provides the viewpoints on the system and its environment, to be used in the software development process. It is a graphical representation of the underlying semantics of a view.
+Model tampilan adalah kerangka kerja yang menyediakan sudut pandang pada sistem dan lingkungannya, untuk digunakan dalam proses pengembangan perangkat lunak. Ini adalah representasi grafis dari semantik yang mendasari pandangan.
 
 #### Business process and data modelling
-Graphical representation of the current state of information provides a very effective means for presenting information to both users and system developers.
-- A business model illustrates the functions associated with the business process being modeled and the organizations that perform these functions. By depicting activities and information flows, a foundation is created to visualize, define, understand, and validate the nature of a process.
-- A data model provides the details of information to be stored and is of primary use when the final product is the generation of computer software code for an application or the preparation of a functional specification to aid a computer software make-or-buy decision. See the figure on the right for an example of the interaction between business process and data models.
+Representasi grafis dari keadaan informasi saat ini menyediakan sarana yang sangat efektif untuk menyajikan informasi kepada pengguna dan pengembang sistem.
+- Model bisnis menggambarkan fungsi yang terkait dengan proses bisnis yang dimodelkan dan organisasi yang menjalankan fungsi ini. Dengan menggambarkan aktivitas dan arus informasi, sebuah fondasi dibuat untuk memvisualisasikan, mendefinisikan, memahami, dan memvalidasi sifat suatu proses.
+- Sebuah model data memberikan rincian informasi yang akan disimpan dan penggunaan utama ketika produk akhir adalah generasi kode perangkat lunak komputer untuk aplikasi atau persiapan spesifikasi fungsional untuk membantu keputusan membuat atau membeli perangkat lunak komputer. Lihat gambar di sebelah kanan untuk contoh interaksi antara proses bisnis dan model data.
 
 #### Computer-aided software engineering
-Computer-aided software engineering (CASE), in the field software engineering, is the scientific application of a set of software tools and methods to the development of software which results in high-quality, defect-free, and maintainable software products. It also refers to methods for the development of information systems together with automated tools that can be used in the software development process.
+Computer-aided software engineering (CASE), di bidang rekayasa perangkat lunak, adalah aplikasi ilmiah dari seperangkat alat dan metode perangkat lunak untuk pengembangan perangkat lunak yang menghasilkan produk perangkat lunak berkualitas tinggi, bebas cacat, dan dapat dipelihara. Ini juga mengacu pada metode untuk pengembangan sistem informasi bersama dengan alat otomatis yang dapat digunakan dalam proses pengembangan perangkat lunak.
 
 #### Modeling language
-A modeling language is any artificial language that can be used to express information or knowledge or systems in a structure that is defined by a consistent set of rules. The rules are used for interpretation of the meaning of components in the structure. A modeling language can be graphical or textual.
+Modeling language adalah bahasa buatan yang dapat digunakan untuk mengekspresikan informasi atau pengetahuan atau sistem dalam struktur yang didefinisikan oleh seperangkat aturan yang konsisten. Aturan digunakan untuk interpretasi makna komponen dalam struktur. Sebuah bahasa pemodelan bisa grafis atau tekstual.
 
 #### Programming paradigm
-A programming paradigm is a fundamental style of computer programming, which is not generally dictated by the project management methodology (such as waterfall or agile). Paradigms differ in the concepts and abstractions used to represent the elements of a program (such as objects, functions, variables, constraints) and the steps that comprise a computation (such as assignations, evaluation, continuations, data flows).
+Programming paradigm adalah gaya dasar pemrograman komputer, yang umumnya tidak ditentukan oleh metodologi manajemen proyek (seperti air terjun atau tangkas). Paradigma berbeda dalam konsep dan abstraksi yang digunakan untuk mewakili elemen program (seperti objek, fungsi, variabel, kendala) dan langkah-langkah yang terdiri dari perhitungan (seperti penugasan, evaluasi, kelanjutan, aliran data).
 
 ## Agile software development
 
 #### Agile software development values
-Based on their combined experience of developing software and helping others do that, the authors of the manifesto declared that they valued:
-- Individuals and interactions over processes and tools
-- Working software over comprehensive documentation
-- Customer collaboration over contract negotiation
-- Responding to change over following a plan
+Berdasarkan pengalaman gabungan mereka dalam mengembangkan perangkat lunak dan membantu orang lain melakukannya, penulis manifesto menyatakan bahwa mereka menghargai:
+- Individu dan interaksi atas proses dan alat
+- Perangkat lunak yang berfungsi melalui dokumentasi yang komprehensif
+- Kolaborasi pelanggan atas negosiasi kontrak
+- Menanggapi perubahan mengikuti rencana
 
 #### Agile software development principles
-The Manifesto for Agile Software Development is based on twelve principles:[25]
+Manifesto untuk Pengembangan Perangkat Lunak Agile didasarkan pada dua belas prinsip :
 
-- Customer satisfaction by early and continuous delivery of valuable software.
-- Welcome changing requirements, even in late development.
-- Deliver working software frequently (weeks rather than months).
-- Close, daily cooperation between business people and developers.
-- Projects are built around motivated individuals, who should be trusted.
-- Face-to-face conversation is the best form of communication (co-location).
-- Working software is the primary measure of progress.
-- Sustainable development, able to maintain a constant pace.
-- Continuous attention to technical excellence and good design.
-- Simplicity—the art of maximizing the amount of work not done—is essential.
-- Best architectures, requirements, and designs emerge from self-organizing teams.
-- Regularly, the team reflects on how to become more effective, and adjusts accordingly.
+- Kepuasan pelanggan dengan pengiriman perangkat lunak yang berharga secara dini dan berkelanjutan.
+- Menyambut perubahan persyaratan, bahkan dalam pengembangan yang terlambat.
+- Berikan perangkat lunak yang berfungsi sesering mungkin (berminggu-minggu, bukan berbulan-bulan).
+- Kerja sama harian yang erat antara pelaku bisnis dan pengembang.
+- Proyek dibangun di sekitar individu yang termotivasi, yang harus dipercaya.
+- Percakapan tatap muka adalah bentuk komunikasi terbaik (co-location).
+- Perangkat lunak yang berfungsi adalah ukuran utama kemajuan.
+- Pembangunan berkelanjutan, mampu mempertahankan kecepatan yang konstan.
+- Perhatian terus menerus terhadap keunggulan teknis dan desain yang baik.
+- Kesederhanaan—seni memaksimalkan jumlah pekerjaan yang tidak dilakukan—sangat penting.
+- Arsitektur, persyaratan, dan desain terbaik muncul dari tim yang mengatur diri sendiri.
+- Secara teratur, tim merefleksikan bagaimana menjadi lebih efektif, dan menyesuaikannya.
 
 ## Scrum (software development)
 
-Scrum or SCRUM, is a framework for project management,[1] with an initial emphasis on software development, although it has been used in other fields including research, sales, marketing and advanced technologies.[2] It is designed for teams of ten or fewer members, who break their work into goals that can be completed within time-boxed iterations, called sprints, no longer than one month and most commonly two weeks. The scrum team assesses progress in time-boxed daily meetings of 15 minutes or fewer, called daily scrums (a form of stand-up meeting). At the end of the sprint, the team holds two further meetings: the sprint review which demonstrates the work done to stakeholders to elicit feedback, and sprint retrospective which enables the team to reflect and improve.
+Scrum atau SCRUM, adalah kerangka kerja untuk manajemen proyek,[1] dengan penekanan awal pada pengembangan perangkat lunak, meskipun telah digunakan di bidang lain termasuk penelitian, penjualan, pemasaran, dan teknologi canggih.[2] Ini dirancang untuk tim yang terdiri dari sepuluh anggota atau kurang, yang memecah pekerjaan mereka menjadi tujuan yang dapat diselesaikan dalam iterasi kotak waktu, yang disebut sprint, tidak lebih dari satu bulan dan paling sering dua minggu. Tim scrum menilai kemajuan dalam rapat harian yang dibatasi waktu selama 15 menit atau kurang, yang disebut scrum harian (suatu bentuk rapat berdiri). Di akhir sprint, tim mengadakan dua pertemuan lebih lanjut: tinjauan sprint yang menunjukkan pekerjaan yang dilakukan kepada pemangku kepentingan untuk mendapatkan umpan balik, dan sprint retrospektif yang memungkinkan tim untuk berefleksi dan meningkatkan.
 
 #### Developers
 
-While no work should come to the team except through the product owner, and the scrum master is expected to protect the team from distractions, the team are encouraged to interact directly with customers and/or stakeholders to gain maximum understanding and immediacy of feedback.
+Meskipun tidak ada pekerjaan yang harus datang ke tim kecuali melalui pemilik produk, dan master scrum diharapkan untuk melindungi tim dari gangguan, tim didorong untuk berinteraksi langsung dengan pelanggan dan/atau pemangku kepentingan untuk mendapatkan pemahaman yang maksimal dan tanggapan yang cepat.
 
 #### Daily scrum
 
-A daily scrum in the computing room. All developers come prepared. No detailed discussions should happen during the daily scrum. Once over, individual members can discuss issues in detail, often known as a 'breakout session' or an 'after party'.
+Daily scrum di ruang komputasi. Semua pengembang datang siap. Tidak boleh ada diskusi mendetail selama scrum harian. Setelah selesai, masing-masing anggota dapat mendiskusikan masalah secara mendetail, yang sering dikenal sebagai 'sesi breakout' atau 'pesta setelahnya'.
 
 #### Backlog refinement
 
-Although not originally a core scrum practice, backlog refinement was added to the Scrum Guide and adopted as a way of managing the quality of product backlog items entering a sprint.
+Meskipun awalnya bukan praktik scrum inti, penyempurnaan backlog ditambahkan ke Panduan Scrum dan diadopsi sebagai cara mengelola kualitas item backlog produk yang memasuki sprint.
 
-#### 
+## Extreme programming
+Extreme programming (XP) adalah metodologi pengembangan perangkat lunak yang dimaksudkan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan pelanggan. Sebagai jenis pengembangan perangkat lunak yang gesit, ia menganjurkan rilis yang sering dalam siklus pengembangan singkat, yang dimaksudkan untuk meningkatkan produktivitas dan memperkenalkan pos pemeriksaan di mana persyaratan pelanggan baru dapat diadopsi.
+
+
