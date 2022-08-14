@@ -4,9 +4,9 @@ cd C:\Users\USER\Documents\GitHub
 dir "*.java" /s
 echo Java ada di : C:\Users\USER\Documents\GitHub\Coding-PGT\kemampuan-dasar-1\kasus
 
-echo ada , ingin mengganti nama ?
+echo file *.java ditemukan , ingin mengubah nama [y/n] ?
 SET choice=
-SET /p choice=[Y/N]: 
+SET /p choice=[y/n]: 
 IF NOT '%choice%'=='' SET choice=%choice:~0,1%
 IF '%choice%'=='Y' GOTO yes
 IF '%choice%'=='y' GOTO yes
@@ -18,17 +18,16 @@ ECHO.
 GOTO start
 
 :no
-echo Bye!
+echo Anda tidak ingin mengubah nama !
 Pause
 EXIT
 
 :yes
 set /p variable= Nama Baru : %variable% 
 set "xx=%variable%"
-set "msg=Ingin ubah nama jadi %xx% ?"
-set msg
+echo Ingin ubah nama menjadi %xx% ?"
 SET choice=
-SET /p choice=[Y/N]: 
+SET /p choice=[y/n]: 
 IF NOT '%choice%'=='' SET choice=%choice:~0,1%
 IF '%choice%'=='Y' GOTO go
 IF '%choice%'=='y' GOTO go
